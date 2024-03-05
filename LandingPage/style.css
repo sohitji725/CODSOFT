@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+scroll-behavior: smooth;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('wooden-car-toys-blue-background-car-toys-background_423236-194.avif ');
+background-size:120%;    
+background-color: #060c0c;
+
+    background: linear-gradient(to left   rgb(114, 210, 210) rgb(29, 32, 32) );
+    color: rgb(9, 7, 7);
+    padding: 20px;
+}
+
+nav1 {
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    background-color: transparent;
+   
+
+
+    
+}
+
+.nav1.scrolled a{
+    color: white;
+
+}
+
+nav1.scrolled{
+    background-color: black;
+}
+.nav1-logo h3 {
+    margin: 0;
+    text-shadow: 2px 2px 5px #ddcdcd;
+    font-size: 25px;
+}
+
+.nav-items ul {
+    list-style: none;
+  display: flex;
+  
+}
+
+.nav-items ul li {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-items ul li:last-child {
+    margin-right: 0;
+
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav-items ul li a:hover {
+    color: white;
+}
+
+.nav-items ul li:first-child a{
+    color: white;
+
+}
+.nav-items ul li:first-child a:hover{
+    color: black;
+}
+
+.header-items{
+
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px white;
+}
+
+.header-items h1{
+font-size: 50px;
+font-weight: 800;
+color: black;
+
+
+
+}
+
+.header-items p{
+     margin-top: 10px;
+     letter-spacing: 2px;
+     padding-top: 10px;
+     font-size: 20px;
+     color: black;
+ 
+}
+ .input-container{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.input-container input{
+    width: 30%;
+    padding:13px; 
+    background-color: white;
+    border: none;
+    outline: none;
+    color: black;
+
+    padding: 10px 31px;
+
+    
+
+    
+
+}
+
+.input-container button{
+
+    
+}
+.input-container input:active{
+    
+outline: #0d24f1;
+}
+.nav3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+} 
+.nav3 h1{
+    color: black;
+}
+.nav3 p{
+    padding: 10px 31px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 15px; 
+    margin-left: 15px;
+    background-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.container-2{
+    width: 100%;
+    height: 110vh;
+    background-color: #f1f6f7;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-bottom: 50px;
+
+
+
+}
+
+.container-2 img{
+    width: 80%;
+
+}
+
+.container-2 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.container-2 p{
+    font-size: 20px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+
+.container-2 button{
+    border-radius: 0;
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px 31px;
+    background-color: #39cfca; 
+       border: 1px solid #ccc;
+
+    cursor: pointer;
+    
+     
+    outline: none;
+}
+
+.services-container{
+    
+    margin: 50px 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.services-container .services{
+    margin-left: 2rem;
+    background-color: rgba(231, 242, 247, 0.909);
+    height: 200px;
+
+
+}
+.services i{
+    padding-left: 30px;
+    padding-top: 30px;
+
+
+}
+.services h1{
+    padding-left: 30px;
+    padding-top: 20px;
+
+
+}
+.services p{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.services:hover{
+    background-color: white;
+    /* box-shadow: 1px 1px 1px black; */
+    transform: scale(1.1);
+}
+
+.faculty{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f1f6f7;
+
+
+}
+.head4 h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+
+
+}
+
+.faculty .teacher img{
+width:300px;
+height: 500px;
+margin-top: 40px;
+box-shadow: 40px 10px 130px   #39cfca;
+
+}
+
+.faculty .teacher h3{
+    padding: 5px 15px;
+    font-size: 30px;
+}
+
+.faculty .teacher p{
+    padding: 3px 13px;
+    font-size: 20px;
+}
+
+.contact-container{
+    background-image: url('contactbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+width: 100%;
+height: 80vh;
+display: flex;
+justify-content: flex-end;
+flex-direction: row;
+flex-wrap:wrap;
+align-items: center;
+
+}
+
+.contact-form{
+width: 300px;
+height: 80vh;    
+padding: 40px;
+border-radius: 10px;
+margin-right: 180px;
+
+}
+.contact-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form input{
+     padding: 20px 40px;
+     margin-top: 7px;
+     margin-right: 20px;
+     border-radius: 5px;
+
+}
+
+.contact-form button{
+    border-radius: 0;
+    color: black;
+    position: relative;
+    font-size: 14px;
+    padding: 10px 31px;
+    background-color: #39cfca;
+    border: 1px solid #ccc;
+
+    cursor: pointer;
+    
+    outline: none;
+    margin-top: 20px;
+    margin-left: 35px;
+
+}
+
+.footer-container{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+
+}
+
+.footer-container h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
